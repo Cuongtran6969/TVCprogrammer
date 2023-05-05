@@ -2450,7 +2450,7 @@ function directCourseDetail() {
     courseItem.addEventListener('click', ()=> {
      let courseIndex = parseInt(courseItem.getAttribute("data-course-index"))
      let selectedCourse = popularCourses.find(course => course.courseIndex === courseIndex)
-     window.location.href = `http://127.0.0.1:5501/course.html#/${selectedCourse.courseName}?courseIndex=`+encodeURIComponent(courseIndex)
+     window.location.href = `https://cuongtran6969.github.io/TVCprogrammer/course.html?courseIndex=`+encodeURIComponent(courseIndex)
     })
   })
 }
